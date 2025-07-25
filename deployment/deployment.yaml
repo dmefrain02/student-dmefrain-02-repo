@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: student-dmefrain-02
-          image: us-central1-docker.pkg.dev/devsecops-lab-464018/student-dmefrain-02
+          image: ${IMAGE}
           ports:
             - containerPort: 3000
           env:
